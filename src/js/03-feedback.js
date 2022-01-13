@@ -11,7 +11,6 @@ const refs = {
 };
 
 refs.form.addEventListener('submit', onFormSubmit);
-
 refs.form.addEventListener('input', throttle(onFormInput, 500));
 
 populateFormData();

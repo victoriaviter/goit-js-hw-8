@@ -20,7 +20,6 @@ function makeGalleryMarkup(pictures) {
     )
     .join('');
 }
-
 function addgalleryMarkuptoHtml(mup) {
   galleryItemsContainer.innerHTML = mup;
 }
@@ -28,5 +27,5 @@ function addgalleryMarkuptoHtml(mup) {
 new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionPosition: 'bottom',
-  captionDelay: 250,
+  captionDelay: 150,
 });
